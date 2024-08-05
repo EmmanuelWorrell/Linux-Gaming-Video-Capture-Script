@@ -22,7 +22,7 @@ else
 
     # Start recording the entire screen and audio using ffmpeg
     ffmpeg -f x11grab -video_size "$(xdpyinfo | grep dimensions | awk '{print $2}')" -framerate 60 \
-           -thread_queue_size 512 -i "$DISPLAY" -f pulse -i default \
+           -thread_queue_size 1024 -i "$DISPLAY" -f pulse -i default \
            -vcodec libx264 -qp 18 -preset ultrafast \
            ~/Videos/"$truncated_folder_name"/"$truncated_folder_name"-"$time".mp4
 fi
