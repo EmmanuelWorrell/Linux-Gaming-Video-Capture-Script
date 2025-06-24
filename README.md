@@ -23,3 +23,27 @@ and set up a hotkey for taking screen shots in games. I use 'ctrl' '0' (numpad).
 The videos will be named after the window opened so if you are looking at your desktop that videos folder will be named 'Desktop'.
 The script will immediately capture the video with no delay the first hotkey press may need to create the directory first if the directory 
 does not exist. Have fun.
+# Screen Recorder with OSD Indicator
+
+![Recording Demo](demo.gif) *Example: OSD indicator during recording*
+
+## Features
+- 🎥 FFmpeg screen recording (X11)
+- 🔴 Customizable OSD indicator
+- ⏱️ Timestamped filenames
+- 🗂️ Auto-organized by window title
+- 🔄 Prevents duplicate recordings
+
+## Installation
+
+### Dependencies
+
+```bash
+# Debian/Ubuntu
+sudo apt update && sudo apt install -y xosd-bin ffmpeg fonts-dejavu fonts-noto-core xdotool libx11-dev
+
+# Arch Linux
+sudo pacman -S xosd ffmpeg ttf-dejavu noto-fonts xdotool libx11
+
+# Fedora/RHEL
+sudo dnf install xosd ffmpeg dejavu-sans-fonts google-noto-fonts xdotool libX11-devel
