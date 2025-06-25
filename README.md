@@ -18,13 +18,15 @@ xdotool is needed to get info about opened windows.
 xdotool can be installed with the following command:
 sudo apt-get install xdotool
 
+Installation.
 The script can be saved in any directory. In your Linux menu search for the application called 'Keyboard' or its equivalent in your distro 
-and set up a hotkey for taking screen shots in games. I use 'ctrl' '0' (numpad). The screenshots will be saved in '~/Pictures/Videos/'. 
+and set up a hotkey for taking screen shots in games. I use 'ctrl' '0' (numpad). The video will be saved in '~/Pictures/Videos/'. 
 The videos will be named after the window opened so if you are looking at your desktop that videos folder will be named 'Desktop'.
 The script will immediately capture the video with no delay the first hotkey press may need to create the directory first if the directory 
 does not exist. Have fun.
 
-This update was made because added an indicator on the screen that shows that the script is recording. The indicator is an elipses (....) at the lower right corner of the screen. The indicator will be recorded in the video but I tried to make it as discrete as possible. The indicator helps the user see if the recording has started or stop so that they won't make mistakes running the recording outside of a game. 
+Indicator
+An indicator on the screen that shows that the script is recording. The indicator is an elipses ("....") at the lower right corner of the screen. The indicator will be recorded in the video but I tried to make it as discrete as possible. The indicator helps the user see if the recording has started or stopped so that they won't make mistakes running the recording outside of a game. I rather that the indicator is not recorded but I have not found a way to stop it from recording.
 
 # Screen Recorder with OSD Indicator
 
