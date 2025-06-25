@@ -8,7 +8,7 @@ with a date time in a folder of the same name.
 
 Also make what ever changes you want to this script any contributions are welcomed and credit me for creating this script.
 
-Requirements: ffmpeg, xdotool
+Dependencies & Requirements: ffmpeg, xdotool, osd-cat
 
 ffmpeg is needed to perform video captures.
 ffmpeg can be installed with the following command:
