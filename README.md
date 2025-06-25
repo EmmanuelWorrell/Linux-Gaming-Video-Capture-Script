@@ -23,6 +23,9 @@ and set up a hotkey for taking screen shots in games. I use 'ctrl' '0' (numpad).
 The videos will be named after the window opened so if you are looking at your desktop that videos folder will be named 'Desktop'.
 The script will immediately capture the video with no delay the first hotkey press may need to create the directory first if the directory 
 does not exist. Have fun.
+
+This update was made because added an indicator on the screen that shows that the script is recording. The indicator is an elipses (....) at the lower right corner of the screen. The indicator will be recorded in the video but I tried to make it as discrete as possible. The indicator helps the user see if the recording has started or stop so that they won't make mistakes running the recording outside of a game. 
+
 # Screen Recorder with OSD Indicator
 
 ![Recording Demo](demo.gif) *Example: OSD indicator during recording*
