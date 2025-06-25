@@ -25,7 +25,7 @@ The videos will be named after the window opened so if you are looking at your d
 The script will immediately capture the video with no delay the first hotkey press may need to create the directory first if the directory 
 does not exist. Have fun.
 
-Indicator
+Indicator.
 An indicator on the screen that shows that the script is recording. The indicator is an elipses ("....") at the lower right corner of the screen. The indicator will be recorded in the video but I tried to make it as discrete as possible. The indicator helps the user see if the recording has started or stopped so that they won't make mistakes running the recording outside of a game. I rather that the indicator is not recorded but I have not found a way to stop it from recording.
 
 # Screen Recorder with OSD Indicator
